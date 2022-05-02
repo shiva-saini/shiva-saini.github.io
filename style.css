@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    /* background-color: black; */
+    margin: auto;
+   
+}
+
+.item{
+    height: 150px;
+    width: 550px;
+    border: black 1px solid;
+    box-shadow: -3px -3px 2px grey;
+    margin: 10px;
+    gap:20px;
+    /* background-color: grey; */
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.day{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+
+nav{
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    padding: 20px;
+}
+
+#myform{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#city{
+    height: 30px;
+    width: 300px;
+    background-color: grey;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/* etting for day2 */
+.item1{
+    height: 150px;
+    width: 550px;
+    border: black 1px solid;
+    box-shadow: -3px -3px 2px grey;
+    margin: 10px;
+ 
+    /* background-color: grey; */
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.item1 .day2{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+.item1 .day2{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day2:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+.item1 .day3{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day3:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+.item1 .day4{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day4:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+.item1 .day5{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day5:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+.item1 .day6{
+    height: 120px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 2px grey;
+}
+
+.day6:hover{
+    background-color: #9BB8C1;
+    height: 125px;
+    width: 105px;
+    box-shadow: -5px -5px 2px grey;
+} 
+
+
+
+.form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* //input */
+
+#request{
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#btn{
+    margin-top:5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+}

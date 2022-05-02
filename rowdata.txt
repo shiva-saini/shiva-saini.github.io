@@ -1,0 +1,26 @@
+ <nav>
+        <ul>
+            <li><a>Today</a></li>
+            <li><a>Hourly</a></li>
+            <li><a>10day</a></li>
+            <li><a>Weakend</a></li>
+            <li>About Us</li>
+            <form action="" id="myform">
+                <input type="text" placeholder="search" required>
+                <button id="btn">search</button>
+            </form>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="item">
+            <h1>hello</h1>
+           
+            This is item</div>
+        <div class="item">
+            This is item
+            
+        </div>
+        <div class="item">This is item</div>
+        <div class="item">This is item</div>
+        <div class="item">This is item</div>
+    </div>
