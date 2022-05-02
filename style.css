@@ -219,6 +219,8 @@ ul li a{
 /* //input */
 
 #request{
+    height: 25px;
+    width: 500px;
     margin-left: 10px;
     margin-top: 5px;
     border-radius: 10px;
@@ -226,6 +228,7 @@ ul li a{
 }
 
 #btn{
+    height: 25px;
     margin-top:5px;
     margin-left: 5px;
     border-radius: 5px;
