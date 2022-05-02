@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <!-- <li><a>Today</a></li>
+            <li><a>Hourly</a></li>
+            <li><a>10day</a></li>
+            <li><a>Weakend</a></li>
+            <li>About Us</li> -->
+               <div class="form">
+                <input id="request" type="text" placeholder="search" required >
+                <button id="btn">search</button>
+               </div>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <he id="city"></he>
+        <div class="item">
+            
+            <div class="day" id="now">
+                <div id="time1">now</div>
+                <div id="img1"><img id="one" src="" alt="" srcset=""></div>
+                <div id="temp1">temp</div>
+                
+
+            </div>
+
+            <div class="day" id="three">
+                <div id="time2"> 3 now</div>
+                <div id="img2"><img id="two" src="" alt="" srcset=""></div>
+                <div id="temp2"></div>
+
+            </div>
+
+            <div class="day" id="six">
+                <div id="time3"> 6 now</div>
+                <div id="img3"><img id="thr" src="" alt="" srcset=""></div>
+                <div id="temp3"></div>
+            </div>
+
+            <div class="day" id="nine">
+                <div id="time4">9 now</div>
+                <div id="img4"><img id="four" src="" alt="" srcset=""></div>
+                <div id="temp4"></div>
+            </div>
+
+        </div>
+        <div class="item1">
+            <div class="day2">
+               <h6>Tomarrow</h6> 
+               <div class="date" id="datetomarrow"></div>
+               <div class="img"><img id="imgtomarrow" src="" alt="" srcset=""></div>
+               <div class="temp" id="temptomarrow"></div>
+            </div>
+            <div class="day3">
+                <div class="date" id="day3date"></div>
+               <div class="img"><img id="day3img" src="" alt="" srcset=""></div>
+               <div class="temp" id="day3temp"></div>
+
+            </div>
+            <div class="day4">
+                <div class="date" id="day4date"></div>
+                <div class="img"><img id="day4img" src="" alt="" srcset=""></div>
+                <div class="temp" id="day4temp"></div>
+            </div>
+            <div class="day5">
+                <div class="date" id="day5date"></div>
+                <div class="img"><img id="day5img" src="" alt="" srcset=""></div>
+                <div class="temp" id="day5temp"></div>
+            </div>
+            <div class="day6">
+                <div class="date" id="day6date"></div>
+                <div class="img"><img id="day6img" src="" alt="" srcset=""></div>
+                <div class="temp" id="day6temp"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
